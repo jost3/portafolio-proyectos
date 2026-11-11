@@ -17,19 +17,19 @@ Incluye **tres tipos de usuario** con permisos distintos y un **prototipo de cha
 
 | Login | Panel del administrativo |
 |---|---|
-| ![Login](img/01-login.png) | ![Panel admin](img/02-panel-admin.png) |
+| ![Login](img/login.png) | ![Panel admin](img/Captura%20de%20pantalla%202026-11-11%20105414.png) |
 
 | Inventario de instrumentos | Solicitud de préstamo (alumno) |
 |---|---|
-| ![Inventario](img/03-inventario.png) | ![Solicitud](img/04-solicitud.png) |
+| ![Inventario](img/inventario.png) | ![Solicitud](img/solicitud%20de%20presrtamo%20alumno.png) |
 
 | Validación de préstamos (docente) | Reportes |
 |---|---|
-| ![Validación](img/05-validacion.png) | ![Reportes](img/06-reportes.png) |
+| ![Validación](img/validacion%20del%20docente.png) | ![Reportes](img/reportes.png) |
 
-| Chatbot en Python |
-|---|
-| ![Chatbot](img/07-chatbot.png) |
+| Chatbot en Python | Calendario de prestamos | 
+|---|---|
+| ![Chatbot](img/chatbot.png) |  ![Calendario](img/calendario%20de%20reportes.png)
 
 ---
 
@@ -76,66 +76,18 @@ Un sistema único donde el alumno **solicita**, el docente **valida** y el perso
 ├── database/          # Migraciones y seeders
 ├── resources/         # Vistas y recursos
 ├── routes/            # Rutas
-├── chatbot/           # Prototipo de chatbot en Python   <!-- TODO: ajusta el nombre real -->
+├── chatbot/           # Prototipo de chatbot en Python  
 └── img/          # Capturas para este README
 ```
 
-## ⚙️ Instalación
-
-**Requisitos:** PHP <!-- TODO: versión -->, Composer, MySQL, Node.js, Python 3 (solo para el chatbot).
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/TU-USUARIO/NOMBRE-DEL-REPO.git
-cd NOMBRE-DEL-REPO
-
-# 2. Instalar dependencias
-composer install
-npm install && npm run build
-
-# 3. Configurar el entorno
-cp .env.example .env
-php artisan key:generate
-# Edita .env con los datos de tu base de datos
-
-# 4. Crear tablas y datos de demostración
-php artisan migrate --seed
-
-# 5. Crear un usuario administrador (Orchid)
-php artisan orchid:admin admin admin@example.com TuContraseña
-
-# 6. Levantar el servidor
-php artisan serve
-```
-
-### Chatbot (opcional)
-
-```bash
-cd chatbot
-pip install -r requirements.txt
-python main.py     # TODO: ajusta el comando real
-```
-
-## 🔑 Usuarios de demostración
-
-<!-- TODO: si tu seeder crea usuarios de prueba, ponlos aquí -->
-
-| Rol | Usuario | Contraseña |
-|---|---|---|
-| Administrativo | `admin@example.com` | `...` |
-| Docente | `docente@example.com` | `...` |
-| Alumno | `alumno@example.com` | `...` |
-
 ## 🚀 Posibles mejoras
 
-- Llevar el chatbot de prototipo a un servicio integrado al sistema.
 - Notificaciones por correo para aprobaciones y devoluciones.
-- <!-- TODO: otras ideas -->
 
 ## 👤 Autor
 
 **Josué Cotera Bravo** — Estudiante de Ingeniería de Software (UTP) · Técnico en Ingeniería de Software con IA (SENATI)
 
 - 📧 josuecotb@gmail.com
-- 💼 LinkedIn: <!-- TODO: tu enlace -->
-- 🐙 GitHub: [@TU-USUARIO](https://github.com/TU-USUARIO)
+- 💼 LinkedIn: [Josue C](www.linkedin.com/in/josue-cotera-bravo-a92358336)<!-- TODO: tu enlace -->
+- 🐙 GitHub: [@jost3](https://github.com/jost3)
