@@ -14,6 +14,7 @@ Desarrollo sistemas completos con roles, permisos, inventario y reportes, y admi
 |---|---|---|---|
 | 📱 [**QR_ASISTE**](./qr-asiste) | Control de asistencia escolar mediante códigos QR. | Laravel · Orchid · PHP · MySQL | ✅ En producción |
 | 🔬 [**Préstamos e inventario de laboratorio**](./laboratorio-prestamos) | Gestión de inventario y préstamos con 3 roles y un chatbot en Python. | Laravel · Orchid · JavaScript · Python | 🎓 Proyecto final |
+| 🛒 [**API REST de ventas e inventario**](https://github.com/jost3/NOMBRE-REPO-API) | API con autenticación por tokens, CRUD de productos, categorías y ventas, y reporte de ventas diarias. | Laravel · Sanctum · MySQL · Postman | 💻 Código disponible |
 | 📚 [**Reserva de libros de biblioteca**](https://github.com/jost3/system_library) | Búsqueda, filtro y reserva de libros, con módulo administrativo. | PHP · HTML · JavaScript · MySQL | 📅 2024 · código disponible |
 
 ---
@@ -26,9 +27,10 @@ Desarrollo sistemas completos con roles, permisos, inventario y reportes, y admi
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 
-- **Desarrollo:** sistemas completos (roles, permisos, inventario, reportes) y APIs con FastAPI.
-- **Herramientas:** Git/GitHub, Power Automate, Power Apps, Microsoft 365, hosting y dominios.
+- **Desarrollo:** sistemas completos (roles, permisos, inventario, reportes) y APIs REST (Laravel con Sanctum y FastAPI).
+- **Herramientas:** Git/GitHub, Postman, Power Automate, Power Apps, Microsoft 365, hosting y dominios.
 - **En aprendizaje:** TypeScript.
 
 ---
@@ -36,5 +38,5 @@ Desarrollo sistemas completos con roles, permisos, inventario y reportes, y admi
 ## 📬 Contacto
 
 - 📧 josuecotb@gmail.com
-- 💼 LinkedIn: [Josue C](www.linkedin.com/in/josue-cotera-bravo-a92358336)<!-- TODO: tu enlace -->
+- 💼 LinkedIn: [Josue C](https://www.linkedin.com/in/josue-cotera-bravo-a92358336)
 - 🐙 GitHub: [@jost3](https://github.com/jost3)
